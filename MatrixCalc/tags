@@ -1,0 +1,5 @@
+_____fpos_t_defined	/usr/include/bits/types/__fpos_t.h	/^#define _____fpos_t_defined 1$/;"	macro	line:2
+_G_fpos_t	/usr/include/bits/types/__fpos_t.h	/^typedef struct _G_fpos_t$/;"	struct	line:10
+__pos	/usr/include/bits/types/__fpos_t.h	/^  __off_t __pos;$/;"	member	line:12	struct:_G_fpos_t	access:public
+__state	/usr/include/bits/types/__fpos_t.h	/^  __mbstate_t __state;$/;"	member	line:13	struct:_G_fpos_t	access:public
+__fpos_t	/usr/include/bits/types/__fpos_t.h	/^typedef struct _G_fpos_t {   __off_t __pos;   __mbstate_t __state; } __fpos_t; $/;"	typedef	line:14	typeref:struct:_G_fpos_t
